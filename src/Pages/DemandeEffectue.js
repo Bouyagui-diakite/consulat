@@ -5,6 +5,7 @@ import ListDemandes from "../components/Home/ListDemandes";
 import NavBarHeader from "../components/Home/NavBarHeader";
 import NavBar3 from "../components/Home/NavBar3";
 
+
 const DemandeEffectue = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const DemandeEffectue = () => {
         <Header />
         <NavBarHeader />
         <div className="content-head">
-          <NavBar3 />
+          {/* <NavBar3 /> */}
           <div className="content-body">
             <ListDemandes />
           </div>

@@ -1,0 +1,35 @@
+
+{
+    "root": [
+        {
+            "key": "0",
+            "label": "Nouveau",
+            "data": "Documents Folder",
+            "icon": "pi pi-fw pi-inbox"
+        },
+            
+            {
+                "key": "0-1",
+                "label": "En Cours",
+                "data": "Home Folder",
+                "icon": "pi pi-fw pi-inbox"
+            
+            },
+        
+        {
+            "key": "1",
+            "label": "Traite",
+            "data": "Events Folder",
+            "icon": "pi pi-fw pi-inbox"
+           
+        },
+        {
+            "key": "0-2",
+            "label": "Cloture",
+            "data": "Events Folder",
+            "icon": "pi pi-fw pi-inbox"
+           
+        }
+       
+    ]
+}

@@ -1,0 +1,28 @@
+
+{
+    "root": [
+        {
+            "key": "0-1",
+            "label": "Carte Consulaire",
+            "data": "Documents Folder",
+            "icon": "pi pi-fw pi-inbox"
+        },
+            
+            {
+                "key": "1",
+                "label": "Home",
+                "data": "Home Folder",
+                "icon": "pi pi-fw pi-inbox"
+            
+            },
+        
+        {
+            "key": "1-1",
+            "label": "Events",
+            "data": "Events Folder",
+            "icon": "pi pi-fw pi-inbox"
+           
+        }
+       
+    ]
+}

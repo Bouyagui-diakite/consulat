@@ -1,0 +1,22 @@
+
+.form-demo .card12 {
+    min-width: 450px;
+}
+.form-demo .card12 form {
+    margin-top: 2rem;
+}
+.form-demo .card12 .field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-demo .card12 {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card12 {
+        width: 100%;
+        min-width: 0;
+    }
+}
+            

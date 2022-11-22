@@ -1,8 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import $ from "jquery";
+import { useFormik } from "formik";
 
 const Header = () => {
+  const [formData, setFormData] = useState({});
+  const formik = useFormik({
+    initialValues: {
+      name: "sdsss",
+    },
+    onSubmit: (data) => {
+      setFormData(data);
+      formik.resetForm();
+    },
+  });
   useEffect(() => {
     $("[data-trigger]").on("click", function (e) {
       e.preventDefault();
@@ -37,19 +48,16 @@ const Header = () => {
               <i className="far fa-search"></i>
             </button>
           </div>
-         
         </form>
       </div>
       <div className="col-nav">
-   
         <ul className="nav">
-         
           <li className="nav-item">
             <Link className="nav-link btn-icon" to="#">
               <i className="fas fa-bell"></i>
             </Link>
           </li>
-        
+
           <li className="dropdown nav-item">
             <Link className="dropdown-toggle" data-bs-toggle="dropdown" to="#">
               <img
@@ -61,6 +69,9 @@ const Header = () => {
             <div className="dropdown-menu dropdown-menu-end">
               <Link className="dropdown-item" to="/">
                 My profile
+              </Link>
+              <Link className="dropdown-item" to="/">
+                <b className="bird"> {formData.name} </b>
               </Link>
               <Link className="dropdown-item" to="#">
                 Settings

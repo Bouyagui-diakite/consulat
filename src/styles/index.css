@@ -1,0 +1,252 @@
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: normal;
+    color: #495057;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: .5em;
+    margin-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1.5rem 0 1rem 0;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+p {
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+}
+
+.card {
+display: flex;
+   padding: 10px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgba(165, 165, 165, 0.1)
+    }
+    50% {
+        background-color: rgba(165, 165, 165, 0.3)
+    }
+    100% {
+        background-color: rgba(165, 165, 165, 0.1)
+    }
+}
+
+.customer-badge {
+    border-radius: 2px;
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+}
+
+.customer-badge.status-qualified {
+    background-color: #C8E6C9;
+    color: #256029;
+}
+
+.customer-badge.status-unqualified {
+    background-color: #FFCDD2;
+    color: #C63737;
+}
+
+.customer-badge.status-negotiation {
+    background-color: #FEEDAF;
+    color: #8A5340;
+}
+
+.customer-badge.status-new {
+    background-color: #B3E5FC;
+    color: #23547B;
+}
+
+.customer-badge.status-renewal {
+    background-color: #ECCFFF;
+    color: #694382;
+}
+
+.customer-badge.status-proposal {
+    background-color: #FFD8B2;
+    color: #805B36;
+}
+
+.product-badge {
+    border-radius: 2px;
+    padding: .25em .5rem;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+}
+
+.product-badge.status-nouveau {
+    background: #7de3ef;
+    color: #2f79d2;
+    border-radius: 20px;
+}
+
+.product-badge.status-en-cours {
+    background: #eae273;
+    color: #ae9922;
+    border-radius: 20px;
+}
+
+.product-badge.status-traite {
+    background: #ace97b;
+    color: #588f25;
+    border-radius: 20px;
+}
+.product-badge.status-cloture {
+    background: #7b7973;
+    color: #030303;
+    border-radius: 20px;
+}
+
+
+.treeselect-demo .p-treeselect {
+    width: 20rem;
+}
+@media screen and (max-width: 640px) {
+    .treeselect-demo .p-treeselect {
+        width: 100%;
+    }
+}
+.card2{
+    flex-direction: row;
+display: flex;
+justify-content: space-around; 
+align-items: center;
+}
+
+.box-head{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+    
+}
+.item{
+    display: flex;
+    margin: 60px;
+    
+}
+    
+.item i{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 40px;
+    color: blue;
+}
+.item .item-content{
+    font-weight: bold;
+    margin-right:0px;
+}
+.item span{
+    font-size: 60px;
+    margin-top: -20px;
+
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.item2 p{
+    margin-right: 20px;
+   font-weight: bold;
+
+}
+
+.history{
+    display: flex;
+    justify-content:space-around;
+}
+.history p{
+    font-weight: bold;
+}
+.history .circle{
+    background-color: #1d9525;
+    border-radius: 20px;
+    border-color:#7b7973;
+}
+.history .circle2{
+    background-color: #c3222d;
+    border-radius: 20px;
+    border-color:#7b7973;
+}
+.history2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.history2 .circle{
+    background-color: #1d9525;
+    border-radius: 20px;
+    border-color:#7b7973;
+    margin-right: 20px;
+    margin-top: 30px;
+   
+}
+.history2 p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.history2 .circle3{
+    background-color: #c3222d;
+    border-radius: 20px;
+    border-color:#7b7973;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.history2 .ct-1 i{
+    font-weight: bold;
+    color: #7b7973;
+    margin-top: 10px;
+}
+
+.history2 .ct-1 p{
+    margin-top: 20px;
+}
+
+.history2 .ct-1 span{
+    float: right;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.history2 .ct-1 h6{
+text-overflow: fade(40px);
+}
